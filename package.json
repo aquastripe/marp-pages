@@ -9,6 +9,6 @@
     "build": "python build.py"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "3.4.0"
+    "@marp-team/marp-cli": "^3.4.0"
   }
 }
