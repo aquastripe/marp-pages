@@ -39,7 +39,11 @@ jobs:
 
       - name: Build Marp slide deck
         run: |
-          npm run build
+          # npm run build
+          cp content/example/netlify-deploy-button.svg dist/example/netlify-deploy-button.svg
+          marp content/example/index.md -o dist/example/og-image.jpg
+          cp content/example/gradient.jpg dist/example/gradient.jpg
+          marp --html content/example/index.md -o dist/example/index.html
           touch ./dist/.nojekyll
         env:
           # Please update URL if you want to use custom domain
