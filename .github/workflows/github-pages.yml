@@ -35,8 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          rm -rf node_modules
-          npm i
+          npm ci
 
       - name: Build Marp slide deck
         run: |
