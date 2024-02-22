@@ -4,6 +4,8 @@ Marp Pages is a static site generator with Marp. You can:
 - Make slides using Markdown syntax.
 - Publish slide decks on GitHub Pages automatically with GitHub Actions.
 
+Example: https://aquastripe.github.io/marp-pages/example/
+
 ## Usage
 
 ### Prerequisite
